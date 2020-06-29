@@ -1,0 +1,17 @@
+/*
+*京东首页css样式
+*/
+
+.jd-body{
+    min-width: 300px;
+    max-width: 640px;
+    margin:0 auto;
+    position: relative;
+    height: 1000px;
+}
+
+/*jd-header部分开始*/
+
+
+
+/*jd-header部分结束*/
