@@ -8,10 +8,66 @@
     margin:0 auto;
     position: relative;
     height: 1000px;
+    background-color: #c0c0c0;
 }
 
 /*jd-header部分开始*/
+.jd-header{
+    width:100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.jd-header .jd-header-box{
+    min-width: 300px;
+    max-width: 640px;
+    height: 40px;
+    background: rgba(201,21,35,0.85);
+    margin: 0 auto;
+    position: relative;
+}
+.jd-header .jd-header-box .login{
+    position: absolute;
+    right: 7px;
+    top: 12px;
+    line-height: 16px;
+    font-size: 16px;
+    color: #fff;
+}
 
+.jd-header .jd-header-box .icon-logo{
+    background-position:0 -103px;
+    height: 36px;
+    width: 60px;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+ }
+
+.jd-header form{
+    height: 40px;
+    width: 100%;
+    padding-left:75px;
+    padding-top: 5px;
+    position: relative;
+    padding-right: 50px;
+}
+.jd-header form i{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 20px;
+    height: 20px;
+    background-position:-60px -109px;
+}
+.jd-header form input{
+    height: 30px;
+    width: 100%;
+    padding-left: 25px;
+    border-radius: 15px;
+}
 
 
 /*jd-header部分结束*/

@@ -28,7 +28,7 @@ textarea{
     -webkit-appearance: none;/*清楚浏览器默认的样式*/
 }
 
-/*清楚浮动*/
+/*清除浮动*/
 .clearfix::before,
 .clearfix::after{
     content: ".";
@@ -37,4 +37,11 @@ textarea{
     line-height: 0;
     visibility: hidden;
     clear: both;
+}
+
+/*精灵图*/
+[class^="icon-"]{
+    background: url(../img/sprites.png) no-repeat;
+    background-size: 200px 200px;
+
 }
